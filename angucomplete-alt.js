@@ -48,7 +48,7 @@
     if ($window && $window.navigator && $window.navigator.userAgent){
       var USERAGENT = $window.navigator.userAgent;
       if (USERAGENT.indexOf('Chrome') !== -1) {
-        INPUT_PARAM_OFF = 'false';
+        INPUT_PARAM_OFF = 'garbage';
       }
     }
 
